@@ -1,0 +1,43 @@
+branche (armoire) commit (tiroire)
+
+git config --global user.name "walid"
+git config --global user.email "hnaien@gmail.com"
+git branch -av
+git status --master branch
+git init --- le repertoire est surveille par git U: untracked
+git add file    A : Added cad tracked
+git status
+git add .
+git commit -m "projet testNg"
+[master (root-commit) d97c840] TestNg project Tutorial
+
+git log --- historique des commits
+commit d97c840ef90031d8fe9441ed08defe32e873d267 (HEAD -> master)
+End  Q pour sortir
+si on modifie un fichier, git le met a U : updated car git il observe
+git restore .
+si on modifie et on ajoute ---- 2 commits
+git help --all
+git help commit
+git hub nouveau repertoire
+git branch -M main --renommer branche master
+git remote add origin https://github.com/walidhnaien/tutoTestNG.git  ajouter lien
+git remote ---origin
+git remote get-url origin --https://github.com/walidhnaien/tutoTestNG.git
+git push origin master
+fatal: Authentication failed for 'https://github.com/walidhnaien/tutoTestNG.git/'
+git log --oneline
+
+git reset d97c840  --retire de staging n est plus tracked
+
+git reset --hard d97c840 --retire changement meme au niveau ficher
+
+git pull origin main git pull ou https://github.com/walidhnaien/tutoTestNG.git
+
+
+
+
+
+
+
+
